@@ -28,3 +28,10 @@ Step 2：Prepare a malicious program
 
 
 I was useing python3 flask write a malicious exe .It can listenHTTP port 14145 and execute system commands.
+Using commands pyinstaller.exe --onefile --windowed -F -w python_test.py make a malicious exe.
+
+
+Step 3：Put malware into Logi OptionsPlus installation path,and rename malware to logioptionsplus_updater.exe.
+for me Logi OptionsPlus installation path is :C:\Program Files\LogiOptionsPlus
+1.Delete the old logioptionsplus_updater.exe or anything to make logioptionsplus_updater.exe disappear
+2.Put malware into Logi OptionsPlus installation path,and rename malware to logioptionsplus_updater.exe
