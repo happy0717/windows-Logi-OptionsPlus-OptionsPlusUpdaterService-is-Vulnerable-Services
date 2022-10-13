@@ -43,8 +43,13 @@ If OptionsPlusUpdaterService is already start you can restart it
 
 Step 4：Wait OptionsPlusUpdaterService start and execute the system commands
 When I see OptionsPlusUpdaterService start in Taskmgr.exe whit SYSTEM, Then I can Open browser input http://127.0.0.1:14145?cmd=whoami
+
 Wait..........
+
 for...
+
 it.
+
 NT SYSTEM
-![image](https://github.com/happy0717/windows-Logi-OptionsPlus-OptionsPlusUpdaterService-is-Vulnerable-Services/blob/main/pic5png)
+
+![image](https://github.com/happy0717/windows-Logi-OptionsPlus-OptionsPlusUpdaterService-is-Vulnerable-Services/blob/main/pic5.png)
