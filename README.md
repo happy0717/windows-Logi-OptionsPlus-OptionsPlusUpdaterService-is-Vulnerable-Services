@@ -35,3 +35,16 @@ Step 3：Put malware into Logi OptionsPlus installation path,and rename malware 
 for me Logi OptionsPlus installation path is :C:\Program Files\LogiOptionsPlus
 1.Delete the old logioptionsplus_updater.exe or anything to make logioptionsplus_updater.exe disappear
 2.Put malware into Logi OptionsPlus installation path,and rename malware to logioptionsplus_updater.exe
+![image](https://github.com/happy0717/windows-Logi-OptionsPlus-OptionsPlusUpdaterService-is-Vulnerable-Services/blob/main/pic3.png)
+
+Step 3：Start the OptionsPlusUpdaterService
+If OptionsPlusUpdaterService is already start you can restart it
+![image](https://github.com/happy0717/windows-Logi-OptionsPlus-OptionsPlusUpdaterService-is-Vulnerable-Services/blob/main/pic4.png)
+
+Step 4：Wait OptionsPlusUpdaterService start and execute the system commands
+When I see OptionsPlusUpdaterService start in Taskmgr.exe whit SYSTEM, Then I can Open browser input http://127.0.0.1:14145?cmd=whoami
+Wait..........
+for...
+it.
+NT SYSTEM
+![image](https://github.com/happy0717/windows-Logi-OptionsPlus-OptionsPlusUpdaterService-is-Vulnerable-Services/blob/main/pic5png)
